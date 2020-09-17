@@ -1,0 +1,39 @@
+body{
+	text-align:center;
+	margin: auto;
+  background-color: var(--background-color);
+  color: var(--font-color)
+}
+
+
+
+input[type=text]{
+	max-width:350px;
+  background-color: var(--background-color2);
+  color: var(--font-color);
+}
+
+[type=submit], button {
+  color: var(--font-color);
+  border: 1.5px solid #a4a4a4;
+}
+
+h4{
+	color: var(--font-color);
+}
+
+a{
+	color: var(--font-color);
+}
+
+:root {
+    --background-color: #fcfcfc;
+    --background-color2: #fcfcfc;
+    --font-color: #000000;
+}
+
+[data-theme="dark"] {
+    --background-color: #000000;
+    --background-color2: #1a1a1a;
+    --font-color: #fcfcfc;
+}
