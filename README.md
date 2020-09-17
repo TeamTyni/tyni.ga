@@ -1,3 +1,3 @@
 # tyni.ga
 
-Deployment branch
+Deployment branch for https://tyni.ga
